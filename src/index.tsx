@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import HomePage from "./Components/HomePage/HomePage";
 import reportWebVitals from "./reportWebVitals";
-import ToDoItem from "./Components/ToDoItem/ToDoItem";
 import ToDoForm from "./Components/ToDoForm/ToDoForm";
 
 const root = ReactDOM.createRoot(
