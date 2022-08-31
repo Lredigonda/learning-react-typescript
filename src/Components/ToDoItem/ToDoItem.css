@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.todo-container {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+}
+.todo-title {
+  font-size: 10px;
+}
+.todo-description {
+  font-size: 5px;
+  border: 1px solid red;
+  width: 300px;
+}
+.todo-closer {
+  border: none;
+  background-color: #fff;
+  color: red;
+  width: 20px;
+  height: 50px;
+  font-size: 40px;
+}
