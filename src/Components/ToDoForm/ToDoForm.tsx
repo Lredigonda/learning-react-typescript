@@ -2,11 +2,18 @@ import { useState } from "react";
 import{ToDoItemType} from '../Types'
 import "./ToDoForm.css";
 
-const ToDoForm = () => {
-  
+interface formState{
+  formValues : ToDoItemType
+}
+interface formProps{
+  newToDo : {}
+}
+// const ToDoForm = ({newToDo} : formProps) => {
+  const ToDoForm = () => {  
   const formSubmit = () => {}
   
-  const [inputValues , setInputValues] = useState<ToDoItemType>({
+  
+  const [inputValues , setInputValues] = useState<formState["formValues"]>({
     title: '',
     description: '',
     date: '',
